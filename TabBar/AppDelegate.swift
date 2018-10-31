@@ -16,6 +16,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        if let window = window {
+            let ChatVC = ChatViewController()
+            let UserVC = UserViewController()
+            let AjusVC = SettingsViewController()
+            
+            let tabController = UITabBarController()
+            tabController.viewControllers = [ChatVC,UserVC, AjusVC]
+            window.rootViewController = tabController
+            window.makeKeyAndVisible()
+        }
         return true
     }
 

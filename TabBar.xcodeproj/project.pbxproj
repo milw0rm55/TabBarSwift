@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		DD46FE8D2189B7960074AD8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD46FE8C2189B7960074AD8C /* AppDelegate.swift */; };
-		DD46FE8F2189B7960074AD8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD46FE8E2189B7960074AD8C /* ViewController.swift */; };
-		DD46FE922189B7960074AD8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD46FE902189B7960074AD8C /* Main.storyboard */; };
 		DD46FE942189B7970074AD8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD46FE932189B7970074AD8C /* Assets.xcassets */; };
 		DD46FE972189B7970074AD8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD46FE952189B7970074AD8C /* LaunchScreen.storyboard */; };
 		DD46FEA22189B7970074AD8C /* TabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD46FEA12189B7970074AD8C /* TabBarTests.swift */; };
 		DD46FEAD2189B7970074AD8C /* TabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD46FEAC2189B7970074AD8C /* TabBarUITests.swift */; };
+		DD46FEC02189BF7E0074AD8C /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD46FEBE2189BF7E0074AD8C /* ChatViewController.swift */; };
+		DD46FEC12189BF7E0074AD8C /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD46FEBF2189BF7E0074AD8C /* ChatViewController.xib */; };
+		DD46FEC42189BF940074AD8C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD46FEC22189BF940074AD8C /* SettingsViewController.swift */; };
+		DD46FEC52189BF940074AD8C /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD46FEC32189BF940074AD8C /* SettingsViewController.xib */; };
+		DD46FEC82189BFA20074AD8C /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD46FEC62189BFA20074AD8C /* UserViewController.swift */; };
+		DD46FEC92189BFA20074AD8C /* UserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD46FEC72189BFA20074AD8C /* UserViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +40,6 @@
 /* Begin PBXFileReference section */
 		DD46FE892189B7960074AD8C /* TabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD46FE8C2189B7960074AD8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DD46FE8E2189B7960074AD8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DD46FE912189B7960074AD8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD46FE932189B7970074AD8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD46FE962189B7970074AD8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD46FE982189B7970074AD8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +49,12 @@
 		DD46FEA82189B7970074AD8C /* TabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD46FEAC2189B7970074AD8C /* TabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarUITests.swift; sourceTree = "<group>"; };
 		DD46FEAE2189B7970074AD8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD46FEBE2189BF7E0074AD8C /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		DD46FEBF2189BF7E0074AD8C /* ChatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
+		DD46FEC22189BF940074AD8C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		DD46FEC32189BF940074AD8C /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		DD46FEC62189BFA20074AD8C /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		DD46FEC72189BFA20074AD8C /* UserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +105,8 @@
 		DD46FE8B2189B7960074AD8C /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				DD46FEBD2189BF480074AD8C /* ViewControllers */,
 				DD46FE8C2189B7960074AD8C /* AppDelegate.swift */,
-				DD46FE8E2189B7960074AD8C /* ViewController.swift */,
-				DD46FE902189B7960074AD8C /* Main.storyboard */,
 				DD46FE932189B7970074AD8C /* Assets.xcassets */,
 				DD46FE952189B7970074AD8C /* LaunchScreen.storyboard */,
 				DD46FE982189B7970074AD8C /* Info.plist */,
@@ -123,6 +130,43 @@
 				DD46FEAE2189B7970074AD8C /* Info.plist */,
 			);
 			path = TabBarUITests;
+			sourceTree = "<group>";
+		};
+		DD46FEBA2189BEF20074AD8C /* ChatViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DD46FEBE2189BF7E0074AD8C /* ChatViewController.swift */,
+				DD46FEBF2189BF7E0074AD8C /* ChatViewController.xib */,
+			);
+			path = ChatViewController;
+			sourceTree = "<group>";
+		};
+		DD46FEBB2189BF110074AD8C /* SettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DD46FEC22189BF940074AD8C /* SettingsViewController.swift */,
+				DD46FEC32189BF940074AD8C /* SettingsViewController.xib */,
+			);
+			path = SettingsViewController;
+			sourceTree = "<group>";
+		};
+		DD46FEBC2189BF220074AD8C /* UserViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DD46FEC62189BFA20074AD8C /* UserViewController.swift */,
+				DD46FEC72189BFA20074AD8C /* UserViewController.xib */,
+			);
+			path = UserViewController;
+			sourceTree = "<group>";
+		};
+		DD46FEBD2189BF480074AD8C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DD46FEBA2189BEF20074AD8C /* ChatViewController */,
+				DD46FEBB2189BF110074AD8C /* SettingsViewController */,
+				DD46FEBC2189BF220074AD8C /* UserViewController */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,8 +274,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD46FE972189B7970074AD8C /* LaunchScreen.storyboard in Resources */,
+				DD46FEC92189BFA20074AD8C /* UserViewController.xib in Resources */,
 				DD46FE942189B7970074AD8C /* Assets.xcassets in Resources */,
-				DD46FE922189B7960074AD8C /* Main.storyboard in Resources */,
+				DD46FEC12189BF7E0074AD8C /* ChatViewController.xib in Resources */,
+				DD46FEC52189BF940074AD8C /* SettingsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +302,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD46FE8F2189B7960074AD8C /* ViewController.swift in Sources */,
+				DD46FEC82189BFA20074AD8C /* UserViewController.swift in Sources */,
+				DD46FEC02189BF7E0074AD8C /* ChatViewController.swift in Sources */,
 				DD46FE8D2189B7960074AD8C /* AppDelegate.swift in Sources */,
+				DD46FEC42189BF940074AD8C /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +341,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DD46FE902189B7960074AD8C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD46FE912189B7960074AD8C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DD46FE952189B7970074AD8C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
